@@ -1,0 +1,16 @@
+
+    {
+        "name": "project1-week1",
+        "version": "1.0.0",
+        "description": "Project for registration system",
+        "main": "index.js",
+        "devDependencies": {
+        "tailwindcss": "^3.0.0",
+        "postcss": "^8.0.0",
+        "autoprefixer": "^10.0.0"
+},
+        "scripts": {
+        "init-tailwind": "npx tailwindcss init",
+        "build:css": "npx tailwindcss build src/styles.css -o css/output.css"
+        }
+    }
